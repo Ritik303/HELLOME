@@ -10,7 +10,7 @@ import { v2 as cloudinary } from "cloudinary";
 import { app, server } from "./socket/socket.js";
 import job from "./cron/cron.js";
 
-dotenv.config();
+dotenv.config();   
 
 connectDB();
 job.start();
